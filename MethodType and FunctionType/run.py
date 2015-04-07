@@ -20,10 +20,10 @@
 # the parent class instance which will be set to __func__ and __self__
 # respectively
 
-class MethodType:
-    def __init__(self, function, instance_parent):
-        self.__func__ = function
-        self.__self__ = instance_parent
+# class MethodType:
+#     def __init__(self, function, instance_parent):
+#         self.__func__ = function
+#         self.__self__ = instance_parent
 
 
 import types
