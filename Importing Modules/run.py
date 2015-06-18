@@ -1,4 +1,5 @@
-import implementor_one
-import implementor_two
+import some_package
+
+print(some_package.andthis)
 
 
