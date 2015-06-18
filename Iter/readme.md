@@ -10,6 +10,8 @@ the __next__
 In a for loop the __iter__ is called first, then the resulting
 Iterator's __next__ method is called each iteration
 
+raise the StopIteration exception to break the for loop
+
 ### Advantages of using Iterators
 
 - Cleaner code
