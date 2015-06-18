@@ -21,7 +21,7 @@ class Iterable:
         return Iterable.Iterator(self.items)
 
 
-# Create an Iterator to print out the Fibonacci
+# Creating an Iterator to print out the Fibonacci
 
 class Fibonacci:
 
