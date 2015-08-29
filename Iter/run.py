@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 class Iterable:
 
     class Iterator:
@@ -52,5 +54,7 @@ class Fibonacci:
 
 fibonacci = Fibonacci(100)
 
-for value in fibonacci:
-    print(value)
+
+if __name__ == 'main':
+    for value in fibonacci:
+        print(value)
